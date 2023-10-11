@@ -1,0 +1,31 @@
+
+.header{
+    background-color: black;
+    color: white;
+    position: sticky;
+    top:0px;
+    width: 100%;
+    margin: 0px;
+    opacity: 0.8;
+}
+
+
+.logo{
+    display: inline-block;
+    width: 39%;
+    font-family: cursive;
+    font-weight: bold;
+    font-style: italic;
+}
+.nav-bar{
+    display: inline-block;
+    width: 60%;
+}
+.nav{
+    display: flex;
+}
+.nav-items{
+    list-style: none;
+    display: block;
+    flex-grow: 1;
+}

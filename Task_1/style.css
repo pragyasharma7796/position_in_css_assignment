@@ -1,0 +1,53 @@
+
+.box-size{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(127,255,212);
+    border:1px solid rgb(127, 255, 176);
+    text-align: center;
+
+}
+p{
+    margin: 0px;
+}
+.A{
+   
+    top:200px;
+    left:200px;
+    
+    position: absolute;
+    z-index: -1;
+}
+.B{
+    
+    top: 170px;
+    left: 170px;
+    position: absolute;
+    
+
+}
+.C{
+    position: absolute;
+    left: 230px;
+    top: 170px;
+}
+.D{
+    
+    position: absolute;
+    top: 230px;
+    left: 170px;
+}
+.E{
+    position: absolute;
+    left: 230px;
+    top: 230px;
+}
+.outer-box{
+    position: absolute;
+    height: 112px;
+    width: 112px;
+    border: 1px solid black;
+    top: 170px;
+    left: 170px;
+    z-index: 1;
+}
